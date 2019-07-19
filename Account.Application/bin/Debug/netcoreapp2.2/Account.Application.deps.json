@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Account.Application/1.0.0": {
+        "dependencies": {
+          "Account.Interface": "1.0.0"
+        },
+        "runtime": {
+          "Account.Application.dll": {}
+        }
+      },
+      "Account.Domain/1.0.0": {
+        "runtime": {
+          "Account.Domain.dll": {}
+        }
+      },
+      "Account.Interface/1.0.0": {
+        "dependencies": {
+          "Account.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Account.Interface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Account.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Account.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Account.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

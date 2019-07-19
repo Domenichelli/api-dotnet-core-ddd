@@ -1,0 +1,9 @@
+﻿# Add any directories, files, or patterns you don't want to be tracked by version control
+
+# documentação gerada pelo jsdocs
+documentation
+
+# pasta de módulos do node
+node_modules
+
+.vs

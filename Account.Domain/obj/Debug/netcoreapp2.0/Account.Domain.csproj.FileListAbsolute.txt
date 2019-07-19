@@ -1,0 +1,27 @@
+C:\Users\Windows 10 Pro\Desktop\Entrevista\Entrevista_DDD\Account.Domain\bin\Debug\netcoreapp2.0\Account.Domain.deps.json
+C:\Users\Windows 10 Pro\Desktop\Entrevista\Entrevista_DDD\Account.Domain\bin\Debug\netcoreapp2.0\Account.Domain.dll
+C:\Users\Windows 10 Pro\Desktop\Entrevista\Entrevista_DDD\Account.Domain\bin\Debug\netcoreapp2.0\Account.Domain.pdb
+C:\Users\Windows 10 Pro\Desktop\Entrevista\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Windows 10 Pro\Desktop\Entrevista\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.AssemblyInfoInputs.cache
+C:\Users\Windows 10 Pro\Desktop\Entrevista\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.AssemblyInfo.cs
+C:\Users\Windows 10 Pro\Desktop\Entrevista\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.dll
+C:\Users\Windows 10 Pro\Desktop\Entrevista\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.pdb
+C:\Users\Windows 10 Pro\Desktop\Entrevista\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.csprojAssemblyReference.cache
+C:\Entrevista\Entrevista_DDD\Account.Domain\bin\Debug\netcoreapp2.0\Account.Domain.deps.json
+C:\Entrevista\Entrevista_DDD\Account.Domain\bin\Debug\netcoreapp2.0\Account.Domain.dll
+C:\Entrevista\Entrevista_DDD\Account.Domain\bin\Debug\netcoreapp2.0\Account.Domain.pdb
+C:\Entrevista\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.csprojAssemblyReference.cache
+C:\Entrevista\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.csproj.CoreCompileInputs.cache
+C:\Entrevista\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.AssemblyInfoInputs.cache
+C:\Entrevista\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.AssemblyInfo.cs
+C:\Entrevista\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.dll
+C:\Entrevista\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.pdb
+C:\Projeto\Entrevista_DDD\Account.Domain\bin\Debug\netcoreapp2.0\Account.Domain.deps.json
+C:\Projeto\Entrevista_DDD\Account.Domain\bin\Debug\netcoreapp2.0\Account.Domain.dll
+C:\Projeto\Entrevista_DDD\Account.Domain\bin\Debug\netcoreapp2.0\Account.Domain.pdb
+C:\Projeto\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.csprojAssemblyReference.cache
+C:\Projeto\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.csproj.CoreCompileInputs.cache
+C:\Projeto\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.AssemblyInfoInputs.cache
+C:\Projeto\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.AssemblyInfo.cs
+C:\Projeto\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.dll
+C:\Projeto\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.pdb

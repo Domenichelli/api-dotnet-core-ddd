@@ -1,0 +1,22 @@
+Entidade -
+
+	Base:
+		DataCriacao,
+		DataAtualizacao	
+
+	Conta: 
+		ID,
+		AccountID,
+		Saldo
+	Cliente:
+		ID,
+		AccountID,
+		Nome,
+		CPF
+	HistoricoTransferencia:
+		ID,
+		AccountID De,
+		AccountID Para,
+		Valor,
+		Tipo - Enum
+	

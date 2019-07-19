@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Accounts.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Accounts.WebApi.Controllers.AccountController.Get(System.String)">
+            <summary>
+            Devolve todas as contas existentes do cpf informado
+            </summary>
+            <param name="identifier"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Accounts.WebApi.Controllers.AccountController.Post(Account.Domain.Contracts.PostClientAccountRequest)">
+            <summary>
+            Cria uma nova conta corrente
+            </summary>
+            <param name="request">Dados da conta</param>
+        </member>
+        <member name="M:Accounts.WebApi.Controllers.AccountController.Put(Account.Domain.Contracts.PutBloquedAccountRequest)">
+            <summary>
+            Bloquear ou desbloquear conta
+            </summary>
+            <param name="request">Dados da conta</param>
+        </member>
+    </members>
+</doc>
