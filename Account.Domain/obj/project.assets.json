@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projeto\\Entrevista_DDD\\Account.Domain\\Account.Domain.csproj",
+      "projectUniqueName": "C:\\Projetos\\api-dotnet-core-ddd\\Account.Domain\\Account.Domain.csproj",
       "projectName": "Account.Domain",
-      "projectPath": "C:\\Projeto\\Entrevista_DDD\\Account.Domain\\Account.Domain.csproj",
+      "projectPath": "C:\\Projetos\\api-dotnet-core-ddd\\Account.Domain\\Account.Domain.csproj",
       "packagesPath": "C:\\Users\\Windows 10 Pro\\.nuget\\packages\\",
-      "outputPath": "C:\\Projeto\\Entrevista_DDD\\Account.Domain\\obj\\",
+      "outputPath": "C:\\Projetos\\api-dotnet-core-ddd\\Account.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

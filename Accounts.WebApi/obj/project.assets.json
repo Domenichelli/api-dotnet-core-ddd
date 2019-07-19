@@ -2400,6 +2400,19 @@
           "lib/netstandard2.0/Microsoft.Extensions.Options.DataAnnotations.dll": {}
         }
       },
+      "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "System.Reflection.TypeExtensions": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll": {}
+        }
+      },
       "Microsoft.Extensions.Primitives/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -7123,6 +7136,20 @@
         "lib/netstandard2.0/Microsoft.Extensions.Options.DataAnnotations.xml",
         "microsoft.extensions.options.dataannotations.2.2.0.nupkg.sha512",
         "microsoft.extensions.options.dataannotations.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
+      "sha512": "tH6EyodUFgzXnG7x+CUenO0otARZ0txI4wVPU5XMGY00ICs9r87IlAkgTCtb3UWmjHVaDd6Ibu21nOSKfPpIvQ==",
+      "type": "package",
+      "path": "microsoft.extensions.platformabstractions/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net451/Microsoft.Extensions.PlatformAbstractions.dll",
+        "lib/net451/Microsoft.Extensions.PlatformAbstractions.xml",
+        "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll",
+        "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.xml",
+        "microsoft.extensions.platformabstractions.1.1.0.nupkg.sha512",
+        "microsoft.extensions.platformabstractions.nuspec"
       ]
     },
     "Microsoft.Extensions.Primitives/2.2.0": {
@@ -13269,6 +13296,7 @@
       "FluentValidation.AspNetCore >= 8.4.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
+      "Microsoft.Extensions.PlatformAbstractions >= 1.1.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3",
       "Swashbuckle.AspNetCore >= 4.0.1",
@@ -13282,11 +13310,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projeto\\Entrevista_DDD\\Accounts.WebApi\\Accounts.WebApi.csproj",
+      "projectUniqueName": "C:\\Projetos\\api-dotnet-core-ddd\\Accounts.WebApi\\Accounts.WebApi.csproj",
       "projectName": "Accounts.WebApi",
-      "projectPath": "C:\\Projeto\\Entrevista_DDD\\Accounts.WebApi\\Accounts.WebApi.csproj",
+      "projectPath": "C:\\Projetos\\api-dotnet-core-ddd\\Accounts.WebApi\\Accounts.WebApi.csproj",
       "packagesPath": "C:\\Users\\Windows 10 Pro\\.nuget\\packages\\",
-      "outputPath": "C:\\Projeto\\Entrevista_DDD\\Accounts.WebApi\\obj\\",
+      "outputPath": "C:\\Projetos\\api-dotnet-core-ddd\\Accounts.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13305,11 +13333,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Projeto\\Entrevista_DDD\\Account.Application\\Account.Application.csproj": {
-              "projectPath": "C:\\Projeto\\Entrevista_DDD\\Account.Application\\Account.Application.csproj"
+            "C:\\Projetos\\api-dotnet-core-ddd\\Account.Application\\Account.Application.csproj": {
+              "projectPath": "C:\\Projetos\\api-dotnet-core-ddd\\Account.Application\\Account.Application.csproj"
             },
-            "C:\\Projeto\\Entrevista_DDD\\Account.Infrastructure\\Account.Infrastructure.csproj": {
-              "projectPath": "C:\\Projeto\\Entrevista_DDD\\Account.Infrastructure\\Account.Infrastructure.csproj"
+            "C:\\Projetos\\api-dotnet-core-ddd\\Account.Infrastructure\\Account.Infrastructure.csproj": {
+              "projectPath": "C:\\Projetos\\api-dotnet-core-ddd\\Account.Infrastructure\\Account.Infrastructure.csproj"
             }
           }
         }
@@ -13341,6 +13369,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.2.0, )"
+          },
+          "Microsoft.Extensions.PlatformAbstractions": {
+            "target": "Package",
+            "version": "[1.1.0, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",

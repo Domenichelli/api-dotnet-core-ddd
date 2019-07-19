@@ -25,3 +25,12 @@ C:\Projeto\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.
 C:\Projeto\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.AssemblyInfo.cs
 C:\Projeto\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.dll
 C:\Projeto\Entrevista_DDD\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.pdb
+C:\Projetos\api-dotnet-core-ddd\Account.Domain\bin\Debug\netcoreapp2.0\Account.Domain.deps.json
+C:\Projetos\api-dotnet-core-ddd\Account.Domain\bin\Debug\netcoreapp2.0\Account.Domain.dll
+C:\Projetos\api-dotnet-core-ddd\Account.Domain\bin\Debug\netcoreapp2.0\Account.Domain.pdb
+C:\Projetos\api-dotnet-core-ddd\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.csprojAssemblyReference.cache
+C:\Projetos\api-dotnet-core-ddd\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\api-dotnet-core-ddd\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.AssemblyInfoInputs.cache
+C:\Projetos\api-dotnet-core-ddd\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.AssemblyInfo.cs
+C:\Projetos\api-dotnet-core-ddd\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.dll
+C:\Projetos\api-dotnet-core-ddd\Account.Domain\obj\Debug\netcoreapp2.0\Account.Domain.pdb

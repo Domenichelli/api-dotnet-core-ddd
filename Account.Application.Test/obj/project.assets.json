@@ -6012,11 +6012,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projeto\\Entrevista_DDD\\Account.Application.Test\\Account.Application.Test.csproj",
+      "projectUniqueName": "C:\\Projetos\\api-dotnet-core-ddd\\Account.Application.Test\\Account.Application.Test.csproj",
       "projectName": "Account.Application.Test",
-      "projectPath": "C:\\Projeto\\Entrevista_DDD\\Account.Application.Test\\Account.Application.Test.csproj",
+      "projectPath": "C:\\Projetos\\api-dotnet-core-ddd\\Account.Application.Test\\Account.Application.Test.csproj",
       "packagesPath": "C:\\Users\\Windows 10 Pro\\.nuget\\packages\\",
-      "outputPath": "C:\\Projeto\\Entrevista_DDD\\Account.Application.Test\\obj\\",
+      "outputPath": "C:\\Projetos\\api-dotnet-core-ddd\\Account.Application.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6035,8 +6035,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Projeto\\Entrevista_DDD\\Account.Application\\Account.Application.csproj": {
-              "projectPath": "C:\\Projeto\\Entrevista_DDD\\Account.Application\\Account.Application.csproj"
+            "C:\\Projetos\\api-dotnet-core-ddd\\Account.Application\\Account.Application.csproj": {
+              "projectPath": "C:\\Projetos\\api-dotnet-core-ddd\\Account.Application\\Account.Application.csproj"
             }
           }
         }

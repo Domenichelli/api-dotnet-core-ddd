@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.PlatformAbstractions;
 using Newtonsoft.Json;
 using Swashbuckle.AspNetCore.Swagger;
 using System;
@@ -56,7 +57,16 @@ namespace Accounts.WebApi
 
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-                c.IncludeXmlComments(xmlPath);
+
+
+
+                var app = PlatformServices.Default.Application;
+                var path = app.ApplicationBasePath;
+
+                var files = Directory.GetFiles(path, "*.xml");
+                foreach (var item in files)
+                    c.IncludeXmlComments(item);
+                
             });
 
 
