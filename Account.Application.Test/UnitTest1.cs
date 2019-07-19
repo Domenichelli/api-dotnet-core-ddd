@@ -22,32 +22,47 @@ namespace Account.Application.Test
 
 
             var request = new PutBloquedAccountRequest();
+            request.AccountID = Guid.Parse("8e5e8e5a-bb0e-4148-ae9b-745abc8dc0e4");
+            request.Block = true;
 
-            accountService.LockAccount(request);
+            var result = accountService.LockAccount(request);
 
-            
-
+            Assert.False(result.Success);
+            Assert.Equal("Conta já está: Bloqueada", result.Errors[0]);
         }
 
-        public void Quando_tentar_transferir_um_valor_sem_saldo_disponivel_devo_receber_uma_mensagem_de_erro()
+        [Fact]
+        public void Testar_Bloquear_Conta()
         {
-            // prepare
-            //var contaOrigem = new AccountEntity { BalanceValue = 100 };
-            //var contaDestino = new AccountEntity { BalanceValue = 0 };
-            //var valorTransferencia = 101;
+            var accountRepository = new Mock<IAccountRepository>();
+            var clientRepository = new Mock<IClientRepository>();
+            var accountService = new AccountService(accountRepository.Object, clientRepository.Object);
 
-            //var repository = new Mock<IAccountRepository>();
 
-            //repository.Setup(d => d.GetById(0)).Returns(contaOrigem);
-            //repository.Setup(d => d.GetById(1)).Returns(contaDestino);
+            var request = new PutBloquedAccountRequest();
+            request.AccountID = Guid.Parse("8e5e8e5a-bb0e-4148-ae9b-745abc8dc0e4");
+            request.Block = true;
 
-            //// act
-            //var service = new Account.Application.Business.Account(repository.Object);
-            //var resultado = service.Transfer(contaOrigem, contaDestino, valorTransferencia);
+            var result = accountService.LockAccount(request);
 
-            //// assert
-            //Assert.True(resultado.Data);
-            //Assert.Equal("whis=kas", resultado.Errors[0]);
+            Assert.True(result.Success);
+        }
+
+        [Fact]
+        public void Testar_Desbloquear_Conta()
+        {
+            var accountRepository = new Mock<IAccountRepository>();
+            var clientRepository = new Mock<IClientRepository>();
+            var accountService = new AccountService(accountRepository.Object, clientRepository.Object);
+
+
+            var request = new PutBloquedAccountRequest();
+            request.AccountID = Guid.Parse("8e5e8e5a-bb0e-4148-ae9b-745abc8dc0e4");
+            request.Block = true;
+
+            var result = accountService.LockAccount(request);
+
+            Assert.True(result.Success);
         }
     }
 }
